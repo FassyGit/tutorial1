@@ -10,3 +10,5 @@ print('Number of users:' + str(n_users)+  '| Numbers of movies =' + str(n_items)
 
 sparsity=round(1.0-len(df)/float(n_users*n_items),3)
 print ('The sparsity level of MovieLens100K is ' +  str(sparsity*100) + '%')
+
+#this is for test the function of pushing
